@@ -10,7 +10,7 @@ const rateInfoDiv = document.getElementById('rateInfo');
 const loadingDiv = document.getElementById('loading');
 
 // API Configuration
-const API_KEY = 647d0f53a0bd9d0f191d1754
+const API_KEY = '647d0f53a0bd9d0f191d1754'
 const API_URL = 'https://api.exchangerate-api.com/v4/latest/';
 
 // Exchange rates cache
@@ -162,3 +162,4 @@ function formatCurrency(amount, currency) {
 if (amountInput.value && parseFloat(amountInput.value) > 0) {
     convertCurrency();
 }
+
